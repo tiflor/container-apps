@@ -4,8 +4,8 @@ services:
   gogs:
     image: gogs/gogs:0.11.43
     ports:
-      - 13000:3000
-      - 10022:22
+      - 23000:3000
+      - 20022:22
     volumes:
       - gogs-data:/data
     environment:
